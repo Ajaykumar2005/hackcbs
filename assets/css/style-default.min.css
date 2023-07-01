@@ -6372,7 +6372,7 @@ button:hover:after {
   .lgx-header .lgx-container-fluid,
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    margin: 0 15px;
+    margin: 0 5px 0px 0px;
   }
   .section-gap {
     padding: 0 !important;
