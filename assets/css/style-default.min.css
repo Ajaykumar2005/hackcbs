@@ -52,7 +52,7 @@ h3,
 h4,
 
 h6 {
-  color: #1b273d;
+  color: #040709;
 }
 h5{
   color:#0F161B;
@@ -160,13 +160,11 @@ table th {
 .lgx-table tbody tr th:hover {
   background: rgba(85, 75, 185, 0.1);
 }
-a {
-  color: #483fa1;
-}
+
 a.active,
 a:focus,
 a:hover {
-  color: #9a60e0;
+  color: #90C4F2;
   -moz-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
