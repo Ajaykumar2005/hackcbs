@@ -1477,6 +1477,7 @@ div.lgx-single-registration.recommended{
 .prize-heading, .hack-prize-heading{
     padding: 15px 30px;
     background-color: #d42241;
+    line-height: 2.5rem;
 }
 
 .prize-heading p, .hack-prize-heading p {
