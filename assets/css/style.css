@@ -1652,7 +1652,7 @@ h4.hack-prize-heading{
     text-align: center;
 }
 
-.permissionless-card-content {
+.permissionless-card-content, .elastic-card-content {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -2416,6 +2416,6 @@ button {
     #90C4F2 0%,
     #90c4f257 1%,
     #90c4f214 2%,
-    rgba(0, 0, 0, 0.55) 100%
+    rgba(0, 0, 0, 0.2) 100%
     );
   }
