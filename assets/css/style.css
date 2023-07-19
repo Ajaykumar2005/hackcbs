@@ -34,6 +34,7 @@ html {
     justify-content: center;
     align-items: center;
     padding-top: 16rem;
+    padding-bottom:5rem;
 }
 
 #top-logo-img {
@@ -333,6 +334,7 @@ section#counter-stats {
 #about {
     background-color: #040709;
 }
+
 .container {
     color: #DFEAF0;
   }
@@ -1477,6 +1479,7 @@ div.lgx-single-registration.recommended{
 .prize-heading, .hack-prize-heading{
     padding: 15px 30px;
     background-color: #d42241;
+    line-height: 2.5rem;
 }
 
 .prize-heading p, .hack-prize-heading p {
@@ -1556,11 +1559,11 @@ h4.hack-prize-heading{
 }
 
 .prize-know-btn {
-    background-color: #EA4C89;
+    background-color: #90C4F2;
 }
 
 .prize-know-btn:hover {
-    background-color: #FC5FB0;
+    background-color: #667C97;
 }
 
 #workshops {
@@ -1649,7 +1652,7 @@ h4.hack-prize-heading{
     text-align: center;
 }
 
-.permissionless-card-content {
+.permissionless-card-content, .elastic-card-content {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -2390,11 +2393,29 @@ button {
   button > svg > path {
     transition: var(--motion-duration) var(--motion-ease);
   }
-  
+
   button:hover > svg > path {
     d: path("M0,0 C0,-5 100,-5 100,0 C105,0 105,100 100,100 C100,105 0,105 0,100 C-5,100 -5,0 0,0");
   }
   
   button:active > svg > path {
     d: path("M0,0 C30,10 70,10 100,0 C95,30 95,70 100,100 C70,90 30,90 0,100 C5,70 5,30 0,0");
+  }
+
+  /* Landing page illumination */
+
+  .banner-parallax:before{
+    content: '';
+    display: block; 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    background: radial-gradient(
+    circle 20vmax at var(--cursorX) var(--cursorY),
+    #90C4F2 0%,
+    #90c4f257 1%,
+    #90c4f214 2%,
+    rgba(0, 0, 0, 0.35) 100%
+    );
   }
