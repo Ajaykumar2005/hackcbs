@@ -10990,7 +10990,7 @@ blockquote.lgx-testi-single:before {
   margin-bottom: 5px;
 }
 .lgx-social-footer li a {
-  color: #b492ff !important;
+  color: #87ceeb !important;
   /* background: #fff; */
   width: 40px;
   height: 41px;
@@ -11015,7 +11015,7 @@ blockquote.lgx-testi-single:before {
   color: inherit;
 }
 .lgx-social-footer:hover > li {
-  color: #d9b7eb;
+  color: #68777d;
   
   opacity: 0.3;
 }
@@ -11026,7 +11026,7 @@ blockquote.lgx-testi-single:before {
   opacity: 1;
 }
 .lgx-social-footer:hover > li:hover a {
-  background: #d9b7eb;
+  background: #68777d;
 }
 .lgx-footer-area {
   /* display: flex;
@@ -11917,11 +11917,11 @@ blockquote.lgx-testi-single:before {
 }
 
 .section_title .title:before{
-  border-top: solid 3px #B492FF;
+  border-top: solid 3px #90C4F2;
 }
 
 .section_title .title-dark:before{
-  border-top: solid 3px #FC5FB0;
+  border-top: solid 3px #90C4F2;
 }
 
 .icon_box_one,

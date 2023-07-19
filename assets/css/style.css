@@ -42,7 +42,8 @@ html {
 }
 
 .banner-parallax {
-    background-image: url("../img/banner/logo1.png");
+
+
     
     background-color: #040709;
     /* Set a specific height */
@@ -81,7 +82,12 @@ html {
     color: #F8F5FF;
     margin-top: 15vh;
 }
-
+.hackcbs_landing {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -26rem;
+  }
 .home_hackCBS .text {
     /* width: fit-content;
     font-style: italic;
@@ -853,7 +859,7 @@ a {
     left: 0;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to left, rgba(212, 144, 201, 0.292), transparent);
+    background: linear-gradient(to left, rgb(97, 125, 158), transparent);
     transform: skew(-18deg);
     transition: .5s;
     border-radius: 10px;
@@ -1122,15 +1128,15 @@ div.lgx-single-registration.recommended{
 
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
-    background-image: linear-gradient(to bottom, rgb(236, 250, 255), rgb(209, 234, 255), rgb(220, 201, 255), rgb(241, 184, 255));
+    background-image: linear-gradient(to bottom, rgb(236, 250, 255), rgb(209, 234, 255), rgb(165, 205, 239),rgb(171, 210, 242));
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #b08bff;
+    background: #667c97;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #8D5DF5;
+    background: #90c4f2;
 }
 
 /*****Media*****/
@@ -1924,7 +1930,10 @@ lord-icon {
     }
 
 }
-
+@media (min-width: 1200px){
+.container {
+  width: 1000px;
+}}
 @media screen and (min-width: 992px) {
     .lgx-reg-inner > .container {
         width: unset;
@@ -2087,6 +2096,7 @@ lord-icon {
     .home_container {
         background: rgba(31, 38, 49, 0.15);
     }
+    
 
     .banner-parallax {
         background-color: #040709;
