@@ -2436,7 +2436,7 @@ button {
     circle 20vmax at var(--cursorX) var(--cursorY),
     #90C4F2 0%,
     #90c4f257 1%,
-    #90c4f214 2%,
+    #90c4f214 4%,
     rgba(0, 0, 0, 0.35) 100%
     );
   }
