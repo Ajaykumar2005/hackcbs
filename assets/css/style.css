@@ -822,7 +822,7 @@ a {
 }
 
 .contact-card span {
-    background-color: #fb5858;
+    background-color: #667c97f1;
     color: #fff;
     padding: 8px 12px;
     font-size: 40px;
@@ -832,6 +832,7 @@ a {
 .contact-card h3 {
     font-size: 40px;
     font-weight: 1000;
+    color: #040709;
 }
 
 .contact-card h4 {
@@ -852,6 +853,14 @@ a {
     transform: translateX(100%);
 }
 
+.contact-content a{
+    color: #DFEAF0;
+}
+
+.contact-content a:hover{
+    color: blue;
+}
+
 .contact-card::before {
     content: "";
     position: absolute;
@@ -859,9 +868,9 @@ a {
     left: 0;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to left, rgb(97, 125, 158), transparent);
+    background: linear-gradient(to left, rgb(97, 125, 158,0.5), transparent);
     transform: skew(-18deg);
-    transition: .5s;
+    transition: .6s;
     border-radius: 10px;
     z-index: -2;
 }
@@ -1422,12 +1431,14 @@ div.lgx-single-registration.recommended{
         font-size: 70%;
     }
 }
+
 @media screen and (min-width: 768px){
-.navbar-nav {
-  float: right;
-  margin: 0;
-  margin-right: 8rem;
-}}
+    .navbar-nav {
+    float: right;
+    margin: 0;
+    margin-right: 8rem;
+    }
+}
 
 @media screen and (max-width: 1024px) {
 
@@ -2426,6 +2437,6 @@ button {
     #90C4F2 0%,
     #90c4f257 1%,
     #90c4f214 2%,
-    rgba(0, 0, 0, 0.35) 100%
+    rgba(0, 0, 0, 0.2) 100%
     );
   }
