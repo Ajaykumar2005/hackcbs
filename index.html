@@ -52,6 +52,7 @@
 </head>
 
 <body class=home>
+    
     <div class="progress-bar progress"></div>
     <!--[if lt IE 8]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p> <![endif]-->
     <div class="lgx-container ">
@@ -88,15 +89,19 @@
                 </div>
             </div>
         </header>
+        
         <section class="banner-parallax">
             
-            <div class="home_container" id="home-section" style="background: url('assets/img/bg_gif1.gif');">
-               
+            <div class="home_container" id="home-section" >
+                <div class="night" id="night">
+                    <!-- Shooting stars will be added here using JavaScript -->
+                </div> 
                 <div class="home_date-container">
-                    <img src="assets/img/banner/logo1.png" class="hackcbs_landing" style="width:75%">
-                   <div class="home_main-text">
+                    
+                    <img src="assets/img/banner/logo1.png" class="hackcbs_landing" >
+                    <div class="home_main-text">
                     <div class="home_hackCBS">
-                        
+                     
                     </div>
                 </div>
                     <p style="text-align:center;">
@@ -465,7 +470,7 @@
             </div>
     </section> -->
 
-    <section id="workshops" class="pb100 pt100">
+    <section id="workshops" >
         <div class=container>
             <div class="section_title">
                 <h3 class=title-dark data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
@@ -2319,8 +2324,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="team-box">
-                             <img src="assets/img/team/shyaamal.jpeg" width="90%">
-                            <h2>Shyaamal Tripathi</h2>
+                             <img src="assets/img/team/Saksham.jpg" width="90%">
+                            <h2>Saksham Duhan</h2>
                             <h5>Lead-Organizer</h5>
                             <h6>
                             <a href="https://www.linkedin.com/in/saksham-duhan-48a536229/" target="_blank">
@@ -2649,6 +2654,32 @@
     <script src="assets/js/ProgressBar.js"></script>
     <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
     <script src="assets/libs/scroll.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const nightElement = document.getElementById('night');
+          const numStars = 20;
+    
+          for (let i = 0; i < numStars; i++) {
+            const shootingStar = document.createElement('div');
+            shootingStar.classList.add('shooting_star');
+            nightElement.appendChild(shootingStar);
+          }
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+    const shootingStars = document.querySelectorAll('.shooting_star');
+  
+    shootingStars.forEach((star, index) => {
+      const randomTop = Math.random() * window.innerHeight;
+      const randomLeft = Math.random() * window.innerWidth;
+  
+      star.style.top = randomTop + 'px';
+      star.style.left = randomLeft + 'px';
+      star.style.animationDelay = index * 1000 + 'ms';
+    });
+  
+    // Rest of your JavaScript code...
+  });
+      </script>
 </body>
 
 </html>
