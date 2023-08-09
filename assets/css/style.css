@@ -2525,30 +2525,30 @@ button {
       .shooting_star:nth-child(4) {
         top: calc(50% - 230px);
         left: calc(50% - -20px);
-        animation-delay: 6278ms;
+        animation-delay: 3278ms;
       }
       
       .shooting_star:nth-child(5) {
         top: calc(50% - 50px);
         left: calc(50% - -190px);
-        animation-delay: 8645ms;
+        animation-delay: 5645ms;
       }
       .shooting_star:nth-child(6) {
         top: calc(50% - -79px);
-        left: calc(50% - 406px)
+        left: calc(50% - 406px);
         animation-delay: 3947ms;
       }
       
       .shooting_star:nth-child(7) {
         top: calc(50% - -290px);
         left: calc(50% - 20px);
-        animation-delay: 6278ms;
+        animation-delay: 3278ms;
       }
       
       .shooting_star:nth-child(8) {
         top: calc(50% - 90px);
         left: calc(50% - -200px);
-        animation-delay: 8645ms;
+        animation-delay: 5645ms;
       }
       .shooting_star:nth-child(9) {
         top: calc(50% - -190px);
@@ -2559,13 +2559,13 @@ button {
       .shooting_star:nth-child(10) {
         top: calc(50% - -30px);
         left: calc(50% - -100px);
-        animation-delay: 6278ms;
+        animation-delay: 3278ms;
       }
       
       .shooting_star:nth-child(11) {
         top: calc(50% - -70px);
         left: calc(50% - -120px);
-        animation-delay: 8645ms;
+        animation-delay: 5645ms;
       }.shooting_star:nth-child(12) {
         top: calc(50% - -250px);
         left: calc(50% - -75px);
@@ -2575,18 +2575,18 @@ button {
       .shooting_star:nth-child(13) {
         top: calc(50% - -250px);
         left: calc(50% - 40px);
-        animation-delay: 6278ms;
+        animation-delay: 4278ms;
       }
       
       .shooting_star:nth-child(14) {
         top: calc(50% - 60px);
         left: calc(50% - 240px);
-        animation-delay: 8645ms;
+        animation-delay: 3645ms;
       }
       .shooting_star:nth-child(15) {
         top: calc(50% - 5px);
         left: calc(50% - 140px);
-        animation-delay: 8645ms;
+        animation-delay: 5645ms;
       }.shooting_star:nth-child(16) {
         top: calc(50% - 50px);
         left: calc(50% - 275px);
@@ -2596,13 +2596,13 @@ button {
       .shooting_star:nth-child(17) {
         top: calc(50% - 25px);
         left: calc(50% - 240px);
-        animation-delay: 6278ms;
+        animation-delay: 4278ms;
       }
       
       .shooting_star:nth-child(18) {
         top: calc(50% - 160px);
         left: calc(50% - 140px);
-        animation-delay: 8645ms;
+        animation-delay: 4645ms;
       }
       
       /* ... Repeat the above block for each shooting star index */
