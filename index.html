@@ -2438,13 +2438,13 @@
                         <p>Based on the info provided in the registration form, teams will be shortlisted for the
                             hackathon.</p>
                     </div>
-                    <div class="accordion-item"> <a>Does hackCBS helps with travel reimbursement?</a>
+                   <!-- <div class="accordion-item"> <a>Does hackCBS helps with travel reimbursement?</a>
                         <div class="content">
                             <p>Yes, definitely we do to the brightest minds but on case to case basis
                                 (keeping in mind all the other constraints). If eligible you'll be informed about this over mail following
                                 the Hackathon.</p>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="accordion-item"> <a>I am below 18 or a high school student. Can I attend the hackathon?</a>
                         <div class="content">
                             <p>Yes, you are most welcome but you will need to have parent's consent to stay in the premises from 5th to 6th.</p>
@@ -2654,32 +2654,7 @@
     <script src="assets/js/ProgressBar.js"></script>
     <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
     <script src="assets/libs/scroll.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          const nightElement = document.getElementById('night');
-          const numStars = 20;
-    
-          for (let i = 0; i < numStars; i++) {
-            const shootingStar = document.createElement('div');
-            shootingStar.classList.add('shooting_star');
-            nightElement.appendChild(shootingStar);
-          }
-        });
-        document.addEventListener('DOMContentLoaded', function() {
-    const shootingStars = document.querySelectorAll('.shooting_star');
-  
-    shootingStars.forEach((star, index) => {
-      const randomTop = Math.random() * window.innerHeight;
-      const randomLeft = Math.random() * window.innerWidth;
-  
-      star.style.top = randomTop + 'px';
-      star.style.left = randomLeft + 'px';
-      star.style.animationDelay = index * 1000 + 'ms';
-    });
-  
-    // Rest of your JavaScript code...
-  });
-      </script>
+    <script src="assets/js/stars.js"></script>
 </body>
 
 </html>

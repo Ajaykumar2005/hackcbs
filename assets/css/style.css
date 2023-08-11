@@ -141,6 +141,7 @@ html {
 }
 .home_date-container{
     margin-top: 34rem;
+    position: relative;
 }
 .home_button-container {
     display: flex;
@@ -1436,7 +1437,7 @@ div.lgx-single-registration.recommended{
     .navbar-nav {
     float: right;
     margin: 0;
-    margin-right: 8rem;
+    margin-right: 10rem;
     }
 }
 
@@ -2425,23 +2426,7 @@ button {
 
   /* Landing page illumination */
 
-  .banner-parallax:before{
-    content: '';
-    display: block; 
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    pointer-events: none;
-    background: radial-gradient(
-    circle 20vmax at var(--cursorX) var(--cursorY),
-    #90C4F2 0%,
-    #90c4f257 1%,
-    #90c4f214 2%,
-    rgba(0, 0, 0, 0.2) 100%
-    );
-  }
-
-
+  
   .hackcbs_landing{
     width: 75%;
   }
@@ -2452,8 +2437,10 @@ button {
    
 
     .banner-parallax{
-        background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-        height: 100vh;
+        /*background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+        */
+        background-color: #040709;
+        display: 100vh;
         overflow: hidden;
         display: flex;
         font-family: 'Anton', sans-serif;
@@ -2463,26 +2450,26 @@ button {
       
       /* Shooting Stars */
       .night {
-        position: relative;
+        position: absolute;
         width: 100%;
         height: 100%;
-        transform: rotateZ(45deg);
-        top: -32rem;
+        transform: rotateZ(0deg);
+        top: -27rem;
+        left: 0rem     ;
         /* animation: sky 200000ms linear infinite; */
+        z-index: 0;
       }
       
       .shooting_star {
         position: absolute;
         left: 50%;
         top: 50%;
-        height: 2px;
+        height: 428px;
         background: linear-gradient(-45deg, rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
         border-radius: 999px;
         filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
         z-index: -1;
-        animation:
-          tail 3000ms ease-in-out infinite,
-          shooting 3000ms ease-in-out infinite;
+        
       }
       
       .shooting_star::before {
@@ -2491,7 +2478,7 @@ button {
         top: calc(50% - 1px);
         right: 0;
         height: 2px;
-        background: linear-gradient(-45deg, rgba(0, 0, 255, 0), rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
+        background: linear-gradient(-45deg, rgba(0, 0, 255, 0),rgb(255 255 255), rgba(0, 0, 255, 0));
         transform: translateX(50%) rotateZ(45deg);
         border-radius: 100%;
         animation: shining 3000ms ease-in-out infinite;
@@ -2503,7 +2490,7 @@ button {
         top: calc(50% - 1px);
         right: 0;
         height: 2px;
-        background: linear-gradient(-45deg, rgba(0, 0, 255, 0), rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
+        background: linear-gradient(-45deg, rgba(0, 0, 255, 0),rgb(255 255 255), rgba(0, 0, 255, 0));
         transform: translateX(50%) rotateZ(45deg);
         border-radius: 100%;
         animation: shining 3000ms ease-in-out infinite;
@@ -2511,99 +2498,7 @@ button {
       }
       
       /* Shooting Star Loop */
-      .shooting_star:nth-child(1) {
-        top: calc(50% - 70px);
-        left: calc(50% - 30px);
-        animation-delay: 3567ms;
-      }
-      .shooting_star:nth-child(3) {
-        top: calc(50% - 150px);
-        left: calc(50% - -75px);
-        animation-delay: 3947ms;
-      }
       
-      .shooting_star:nth-child(4) {
-        top: calc(50% - 230px);
-        left: calc(50% - -20px);
-        animation-delay: 3278ms;
-      }
-      
-      .shooting_star:nth-child(5) {
-        top: calc(50% - 50px);
-        left: calc(50% - -190px);
-        animation-delay: 5645ms;
-      }
-      .shooting_star:nth-child(6) {
-        top: calc(50% - -79px);
-        left: calc(50% - 406px);
-        animation-delay: 3947ms;
-      }
-      
-      .shooting_star:nth-child(7) {
-        top: calc(50% - -290px);
-        left: calc(50% - 20px);
-        animation-delay: 3278ms;
-      }
-      
-      .shooting_star:nth-child(8) {
-        top: calc(50% - 90px);
-        left: calc(50% - -200px);
-        animation-delay: 5645ms;
-      }
-      .shooting_star:nth-child(9) {
-        top: calc(50% - -190px);
-        left: calc(50% - -7px);
-        animation-delay: 3947ms;
-      }
-      
-      .shooting_star:nth-child(10) {
-        top: calc(50% - -30px);
-        left: calc(50% - -100px);
-        animation-delay: 3278ms;
-      }
-      
-      .shooting_star:nth-child(11) {
-        top: calc(50% - -70px);
-        left: calc(50% - -120px);
-        animation-delay: 5645ms;
-      }.shooting_star:nth-child(12) {
-        top: calc(50% - -250px);
-        left: calc(50% - -75px);
-        animation-delay: 3947ms;
-      }
-      
-      .shooting_star:nth-child(13) {
-        top: calc(50% - -250px);
-        left: calc(50% - 40px);
-        animation-delay: 4278ms;
-      }
-      
-      .shooting_star:nth-child(14) {
-        top: calc(50% - 60px);
-        left: calc(50% - 240px);
-        animation-delay: 3645ms;
-      }
-      .shooting_star:nth-child(15) {
-        top: calc(50% - 5px);
-        left: calc(50% - 140px);
-        animation-delay: 5645ms;
-      }.shooting_star:nth-child(16) {
-        top: calc(50% - 50px);
-        left: calc(50% - 275px);
-        animation-delay: 3947ms;
-      }
-      
-      .shooting_star:nth-child(17) {
-        top: calc(50% - 25px);
-        left: calc(50% - 240px);
-        animation-delay: 4278ms;
-      }
-      
-      .shooting_star:nth-child(18) {
-        top: calc(50% - 160px);
-        left: calc(50% - 140px);
-        animation-delay: 4645ms;
-      }
       
       /* ... Repeat the above block for each shooting star index */
       
@@ -2612,7 +2507,7 @@ button {
           width: 0;
         }
         30% {
-          width: 100px;
+          width: 10px;
         }
       }
       
@@ -2621,7 +2516,7 @@ button {
           width: 0;
         }
         50% {
-          width: 30px;
+          width: 10px;
         }
       }
       
@@ -2630,7 +2525,7 @@ button {
           transform: translateX(0);
         }
         100% {
-          transform: translateX(300px);
+          transform: translateX(10px);
         }
       }
       
