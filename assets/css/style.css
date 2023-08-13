@@ -42,18 +42,25 @@ html {
 }
 
 .banner-parallax {
-
-
+    background-image: url("../img/bg/bg1.jpg");
+    /* Set the background to cover the entire screen */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     
-    background-color: #040709;
-    /* Set a specific height */
-    min-height: 500px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
-    background-size: 75%;
-    background-repeat: no-repeat;
+
+    /* Set the section to occupy the entire viewport height */
+    height: 100vh;
+    
+    /* Center content vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
 }
+
 
 .home_hackCBS>h2 {
     color: #d6b7bc;
@@ -1585,7 +1592,7 @@ h4.hack-prize-heading{
 }
 
 #workshops {
-    margin-top: 3vh;
+    margin-top: 0vh;
     background: #040709;
     /* background-color: #5bc2e0; */
 }
@@ -2110,10 +2117,6 @@ lord-icon {
     }
     
 
-    .banner-parallax {
-        background-color: #040709;
-        background-size: 90%;
-    }
 
     .button-register {
         margin-right: 0;
@@ -2436,17 +2439,7 @@ button {
     }}
    
 
-    .banner-parallax{
-        /*background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-        */
-        background-color: #040709;
-        display: 100vh;
-        overflow: hidden;
-        display: flex;
-        font-family: 'Anton', sans-serif;
-        justify-content: center;
-        align-items: center;
-      }
+    
       
       /* Shooting Stars */
       .night {
