@@ -38,7 +38,7 @@ html {
 }
 
 #top-logo-img {
-    width: 12vw;
+    width: 9vw;
 }
 
 .banner-parallax {
@@ -1444,6 +1444,7 @@ div.lgx-single-registration.recommended{
     .navbar-nav {
     float: right;
     margin: 0;
+    margin-top: 1rem;
     margin-right: 10rem;
     }
 }
@@ -1977,7 +1978,7 @@ lord-icon {
     }
 
     #mlh-trust-badge {
-        top: 12vw !important;
+        top: 0vw !important;
     }
 }
 
@@ -2441,23 +2442,16 @@ button {
 
     .banner-parallax {
         background-image: url("../img/bg/bg3.png");
-        /* Set the background to cover the entire screen */
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
-        
-        /* Create the parallax scrolling effect */
+        background-position: right;
         background-attachment: fixed;
-    
-        /* Set the section to occupy the entire viewport height */
         height: 100vh;
-        
-        /* Center content vertically and horizontally */
         display: flex;
         justify-content: center;
         align-items: center;
         font-family: 'Anton', sans-serif;
     }
     
-      
-      
+   
+    
