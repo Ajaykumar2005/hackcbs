@@ -1821,7 +1821,7 @@ h4.hack-prize-heading{
     }
 
     #top-logo-img {
-        width: 150px;
+        width: 13vw;
     }
 
     .workshop-btn button {
@@ -2066,9 +2066,15 @@ lord-icon {
     }
 
     #mlh-trust-badge {
-        top: 102px !important;
+        top: 14.5vw !important;
     }
 }
+
+@media screen and (max-width: 553px){
+    #mlh-trust-badge {
+        top: 15.5vw !important;
+    }}
+ 
 
 @media screen and (max-width:624px) {
     .home_hackCBS>h1 {
