@@ -2444,7 +2444,7 @@ button {
         background-image: url("../img/bg/bg3.png");
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: right;
+        background-position:center;
         background-attachment: fixed;
         height: 100vh;
         display: flex;
