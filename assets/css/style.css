@@ -10,7 +10,7 @@ html {
 
 .progress {
     position: fixed;
-    top: 120.6px;
+    top: 114.6px;
     left: 0;
     height: 6px;
     /* background: rgb(175, 103, 226); */
@@ -892,7 +892,7 @@ a {
 }
 
 .themes-bg-cover {
-    background: url('../img/bg1.png');
+    background: #040709;
     background-repeat: repeat;
     background-position: center center;
     background-size: 100% 80%;
@@ -1271,7 +1271,7 @@ div.lgx-single-registration.recommended{
     }
 
     .themes-bg-cover {
-        background: url('../img/bg1.png');
+        background: #040709;
         background-repeat: no-repeat;
         background-position: center right;
         background-size: auto;
@@ -1821,7 +1821,7 @@ h4.hack-prize-heading{
     }
 
     #top-logo-img {
-        width: 13vw;
+        width: 20vw;
     }
 
     .workshop-btn button {
@@ -2062,19 +2062,35 @@ lord-icon {
     }
 
     .progress {
-        top: 102px !important;
+        top: 88px !important;
     }
 
     #mlh-trust-badge {
-        top: 14.5vw !important;
+        top: 13.5rem !important;
     }
 }
 
 @media screen and (max-width: 553px){
     #mlh-trust-badge {
-        top: 15.5vw !important;
+        top: 13.5rem !important;
     }}
- 
+    @media screen and (max-width: 502px){
+        #mlh-trust-badge {
+            top: 13rem !important;
+        }}
+        @media screen and (max-width: 460px){
+            #mlh-trust-badge {
+                top: 12.5rem !important;
+            }}   
+            @media screen and (max-width: 400px){
+                #mlh-trust-badge {
+                    top: 10.5rem !important;
+                }}   
+                @media screen and (max-width: 350px){
+                    #mlh-trust-badge {
+                        top: 9rem !important;
+                    }}   
+    
 
 @media screen and (max-width:624px) {
     .home_hackCBS>h1 {
@@ -2447,12 +2463,13 @@ button {
    
 
     .banner-parallax {
-        background-image: url("../img/bg/bg3.png");
+        background-image: url("/V1b.mp4");
         background-size: cover;
         background-repeat: no-repeat;
         background-position:center;
         background-attachment: fixed;
         height: 100vh;
+        width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -2460,4 +2477,10 @@ button {
     }
     
    
-    
+    video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+       
+      }
