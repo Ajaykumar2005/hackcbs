@@ -2135,7 +2135,12 @@ lord-icon {
 @media screen and (max-width: 553px){
     #mlh-trust-badge {
         top: 13.5rem !important;
-    }}
+    }
+
+.banner-parallax{
+    height: 88vh;
+}}
+    
     @media screen and (max-width: 502px){
         #mlh-trust-badge {
             top: 13rem !important;
