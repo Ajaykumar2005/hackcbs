@@ -2484,3 +2484,8 @@ button {
         position: absolute;
        
       }
+      body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    
