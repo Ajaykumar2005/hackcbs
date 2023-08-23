@@ -1584,13 +1584,75 @@ h4.hack-prize-heading{
     margin: 5px 0px;
 }
 
-.prize-know-btn {
+/* .prize-know-btn {
     background-color: #90C4F2;
-}
+} */
 
-.prize-know-btn:hover {
+.cta {
+    border: none;
+    background: none;
+  }
+
+  .cta:hover{
+    border: none;
+    box-shadow: none;
+  }
+  
+  .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
+  }
+  
+  .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+    border: 0;
+  }
+  
+  .cta:active svg {
+    transform: scale(0.9);
+  }
+
+  .sponsor_us_btn .hover-underline-animation{
+    color: white;
+  }
+
+
+  
+  .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #007bff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+/* .prize-know-btn:hover {
     background-color: #667C97;
-}
+} */
 
 #workshops {
     margin-top: 0vh;
@@ -2392,7 +2454,7 @@ lord-icon {
     color: inherit;
 }
 
-button {
+/* button {
     appearance: none;
     background: transparent;
     border: 0;
@@ -2448,7 +2510,7 @@ button {
   
   button:active > svg > path {
     d: path("M0,0 C30,10 70,10 100,0 C95,30 95,70 100,100 C70,90 30,90 0,100 C5,70 5,30 0,0");
-  }
+  } */
 
   /* Landing page illumination */
 
