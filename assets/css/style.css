@@ -10,7 +10,8 @@ html {
 
 .progress {
     position: fixed;
-    top: 120.6px;
+    top: 12rem;
+
     left: 0;
     height: 6px;
     /* background: rgb(175, 103, 226); */
@@ -892,7 +893,7 @@ a {
 }
 
 .themes-bg-cover {
-    background: url('../img/bg1.png');
+    background: #040709;
     background-repeat: repeat;
     background-position: center center;
     background-size: 100% 80%;
@@ -2036,14 +2037,61 @@ lord-icon {
     }
 
     .progress {
-        top: 12vw !important;
+        top: 11.5rem !important;
     }
 
     #mlh-trust-badge {
         top: 0vw !important;
     }
 }
+@media (min-width: 991px) and (max-width:1309px) {
+    
+    .progress {
+        top: 12.2rem !important;
+    }
 
+   
+}
+@media (min-width: 1200px) and (max-width:1341px) {
+    
+    .progress {
+        top: 11.7rem !important;
+    }
+
+   
+}
+@media (min-width: 550px) and (max-width:768px) {
+    
+    .progress {
+        top: 14.7vw !important;
+    }
+
+   
+}
+@media (min-width: 400px) and (max-width:550px) {
+    
+    .progress {
+        top: 15.7vw !important;
+    }
+
+   
+}
+@media (min-width: 300px) and (max-width:400px) {
+    
+    .progress {
+        top: 16.7vw !important;
+    }
+
+   
+}
+@media (min-width: 240px) and (max-width:300px) {
+    
+    .progress {
+        top: 22.7vw !important;
+    }
+
+   
+}
 @media screen and (max-width: 900px) {
     .home_hackCBS>h1 {
         /* font-size: 13vw; */
@@ -2123,9 +2171,7 @@ lord-icon {
         font-size: 18px !important;
     }
 
-    .progress {
-        top: 102px !important;
-    }
+    
 
     #mlh-trust-badge {
         top: 14.5vw !important;
@@ -2135,33 +2181,22 @@ lord-icon {
 @media screen and (max-width: 553px){
     #mlh-trust-badge {
 
-        top: 13.5rem !important;
+        top: 15.5vw!important;
     }
 
 .banner-parallax{
     height: 88vh;
 }}
     
-    @media screen and (max-width: 502px){
-        #mlh-trust-badge {
-            top: 13rem !important;
-        }}
-        @media screen and (max-width: 460px){
-            #mlh-trust-badge {
-                top: 12.5rem !important;
-            }}   
-            @media screen and (max-width: 400px){
-                #mlh-trust-badge {
-                    top: 10.5rem !important;
-                }}   
-                @media screen and (max-width: 350px){
-                    #mlh-trust-badge {
-                        top: 9rem !important;
-                    }}   
+ 
+       
     
-
-        top: 15.5vw !important;
-    }}
+ @media (min-width: 400px) and (max-width:557px) {
+    #mlh-trust-badge {
+        top: 10 rem !important;
+    }      
+                    }
+    
  
 
 @media screen and (max-width:624px) {

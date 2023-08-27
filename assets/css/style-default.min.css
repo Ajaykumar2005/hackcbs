@@ -9972,6 +9972,7 @@ button:hover:after {
 }
 .lgx-gallery-single figure figcaption {
   background: #90C4F2;
+  
   position: absolute;
   left: 5%;
   top: 5%;
@@ -10012,7 +10013,7 @@ button:hover:after {
   transform: scale(1.2);
 }
 .lgx-gallery-single:hover figure figcaption {
-  opacity: 1;
+  opacity: 75%;
 }
 .lgx-gallery-single:hover figure figcaption .lgx-hover-link .lgx-vertical a {
   color: #fff;
