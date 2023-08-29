@@ -736,7 +736,7 @@ a {
    } */
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .glimpses_container{
         grid-template-columns: repeat(5,1fr);
     }
@@ -746,7 +746,7 @@ a {
         width: 15rem;
     }
 }
-@media screen and (min-width: 990px) {
+@media screen and (max-width: 990px) {
     .glimpses_container{
         grid-template-columns: repeat(5,1fr);
     }
