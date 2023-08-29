@@ -1,1 +1,14 @@
-window.addEventListener("load",function(){580<window.innerWidth?new Swiper(".swiper",{effect:"carousel",grabCursor:!0,loop:!0,loopedSlides:8,slidesPerView:1.8,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},pagination:{el:".swiper-pagination"},watchSlidesProgress:!0,centeredSlides:!0,autoplay:{delay:3e3}}):new Swiper(".swiper",{effect:"carousel",grabCursor:!0,loop:!0,loopedSlides:8,slidesPerView:1,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},pagination:{el:".swiper-pagination"},watchSlidesProgress:!0,centeredSlides:!0,autoplay:{delay:3e3}})});
+
+
+        function increment() {
+            var randomValueAdd = Math.floor(Math.random() * 26);
+            var randomValueRemove = Math.floor(Math.random() * 23);
+
+            const fakeImages = document.querySelectorAll(".glimpse_flip-card");
+            for (var i = 0; i < fakeImages.length; i++) {
+                fakeImages[randomValueAdd].classList.add("addBack");
+                fakeImages[randomValueRemove + 1].classList.remove("addBack");
+                fakeImages[randomValueAdd].style.transition = "all .6s ease";
+            }
+        }
+        setInterval(increment, 300);
