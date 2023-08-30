@@ -153,11 +153,12 @@ html {
 }
 .home_button-container {
     display: flex;
-    justify-content: space-between;
+    gap: 4rem;
     align-items: center;
     margin-top: 7rem;
     margin-bottom: 8rem;
 }
+
 
 .home_date-container .fa-calendar {
     font-size: 3rem;
@@ -176,13 +177,13 @@ html {
     font-style: normal;
     font-weight: 500;
     font-size: 2rem;
-    padding: 1.2rem 4rem;
+    padding: 1.35rem 5.2rem;
     color: #FFFFFF;
     /* background: linear-gradient(45deg, #f87bdd, #ff69de, #ee36ff, #b51afd, #891bff, #a824ff); */
     background: linear-gradient(92.48deg, #667C97 0.26%, #90C4F2 39.81%, #DFEAF0 91.19%);
     border-radius: 12px;
     border: none !important;
-    margin-right: 4rem;
+    /* margin-right: 4rem; */
 }
 
 .button-discord {
@@ -194,7 +195,7 @@ html {
     font-style: normal;
     font-weight: 500;
     font-size: 2rem;
-    padding: 0.95rem 2.6rem;
+    padding: 1.3rem 3rem;
     color: #FFFFFF;
     background: #1F2631;
     border-radius: 12px;
@@ -2220,6 +2221,10 @@ lord-icon {
         top: 17.6vw !important;
     }
 
+    .button-register{
+        padding: 1.5rem 7.2rem;
+    }
+
    
 }
 
@@ -2377,8 +2382,8 @@ lord-icon {
     .home_button-container {
         flex-direction: column;
         justify-content: center;
-        align-items: initial;
-        margin-bottom: 12rem;
+        align-items: center;
+        margin-bottom: 8rem;
     }
 
     .home_container {
@@ -2387,11 +2392,11 @@ lord-icon {
     
 
 
-    .button-register {
+    /* .button-register {
         margin-right: 0;
         margin-bottom: 3rem;
         font-size: 3rem;
-    }
+    } */
 
     .button-discord {
         font-size: 2.5rem;
