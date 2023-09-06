@@ -153,11 +153,12 @@ html {
 }
 .home_button-container {
     display: flex;
-    justify-content: space-between;
+    gap: 4rem;
     align-items: center;
     margin-top: 7rem;
     margin-bottom: 8rem;
 }
+
 
 .home_date-container .fa-calendar {
     font-size: 3rem;
@@ -176,13 +177,13 @@ html {
     font-style: normal;
     font-weight: 500;
     font-size: 2rem;
-    padding: 1.2rem 4rem;
+    padding: 1.35rem 5.2rem;
     color: #FFFFFF;
     /* background: linear-gradient(45deg, #f87bdd, #ff69de, #ee36ff, #b51afd, #891bff, #a824ff); */
     background: linear-gradient(92.48deg, #667C97 0.26%, #90C4F2 39.81%, #DFEAF0 91.19%);
     border-radius: 12px;
     border: none !important;
-    margin-right: 4rem;
+    /* margin-right: 4rem; */
 }
 
 .button-discord {
@@ -194,7 +195,7 @@ html {
     font-style: normal;
     font-weight: 500;
     font-size: 2rem;
-    padding: 0.95rem 2.6rem;
+    padding: 1.3rem 3rem;
     color: #FFFFFF;
     background: #1F2631;
     border-radius: 12px;
@@ -582,6 +583,10 @@ a {
 }
 
 /** Glimpses **/
+
+.previous_ed{
+    margin-top: 1rem;
+}
 .glimpses_of_events{
     display: flex;
     justify-content: center;
@@ -750,6 +755,7 @@ a {
 @media screen and (min-width: 768px) and (max-width: 990px) {
     .glimpses_container{
         grid-template-columns: repeat(5,1fr);
+        padding-left: 10vw;
     }
 
     .glimpse_flip-card{
@@ -2013,7 +2019,7 @@ h4.hack-prize-heading{
     }
 
     #top-logo-img {
-        width: 13vw;
+        width: 15vw;
     }
 
     .workshop-btn button {
@@ -2111,6 +2117,10 @@ lord-icon {
     /* color: rgb(120, 131, 137); */
 }
 
+.social{
+    padding-left: 5rem !important;
+}
+
 #footer-addr a:hover {
     color: rgb(252, 219, 253);
 }
@@ -2184,35 +2194,48 @@ lord-icon {
 @media (min-width: 1200px) and (max-width:1341px) {
     
     .progress {
-        top: 11.7rem !important;
+        top: 11.5rem !important;
     }
 
    
 }
-@media (min-width: 550px) and (max-width:768px) {
+@media (min-width: 700px) and (max-width:768px) {
     
     .progress {
-        top: 14.7vw !important;
+        top: 14.9vw !important;
     }
 
    
 }
-@media (min-width: 400px) and (max-width:550px) {
+@media (min-width: 600px) and (max-width:700px) {
     
     .progress {
-        top: 15.7vw !important;
+        top: 15.9vw !important;
     }
 
    
 }
-@media (min-width: 300px) and (max-width:400px) {
+@media (min-width: 550px) and (max-width:600px) {
     
     .progress {
-        top: 16.7vw !important;
+        top: 17.5vw !important;
     }
 
    
 }
+@media (min-width: 300px) and (max-width:550px) {
+    
+    .progress {
+        top: 17.6vw !important;
+    }
+
+    .button-register{
+        padding: 1.5rem 7.2rem;
+    }
+
+   
+}
+
 @media (min-width: 240px) and (max-width:300px) {
     
     .progress {
@@ -2302,38 +2325,32 @@ lord-icon {
 
     
 
-    #mlh-trust-badge {
-        top: 1vw !important;
-    }
+    /* #mlh-trust-badge {
+        top: 16.5vw !important;
+    } */
 }
 
 @media screen and (max-width: 553px){
     #mlh-trust-badge {
 
-        top: 10rem !important;
+        top: 17.6vw!important;
+        right: 6px !important;
     }
 
 .banner-parallax{
     height: 88vh;
 }}
     
-    @media screen and (max-width: 502px){
-        #mlh-trust-badge {
-            top: 13rem !important;
-        }}
-        @media screen and (max-width: 460px){
-            #mlh-trust-badge {
-                top: 12.5rem !important;
-            }}   
-            @media screen and (max-width: 400px){
-                #mlh-trust-badge {
-                    top: 10.5rem !important;
-                }}   
-                @media screen and (max-width: 350px){
-                    #mlh-trust-badge {
-                        top: 9rem !important;
-                    }}   
- 
+
+       
+    
+ @media (min-width: 400px) and (max-width:557px) {
+    #mlh-trust-badge {
+        top: 10 rem !important;
+    }      
+                    }
+    
+                        
 
 @media screen and (max-width:624px) {
     .home_hackCBS>h1 {
@@ -2374,8 +2391,8 @@ lord-icon {
     .home_button-container {
         flex-direction: column;
         justify-content: center;
-        align-items: initial;
-        margin-bottom: 12rem;
+        align-items: center;
+        margin-bottom: 8rem;
     }
 
     .home_container {
@@ -2384,11 +2401,11 @@ lord-icon {
     
 
 
-    .button-register {
+    /* .button-register {
         margin-right: 0;
         margin-bottom: 3rem;
         font-size: 3rem;
-    }
+    } */
 
     .button-discord {
         font-size: 2.5rem;
@@ -2619,7 +2636,8 @@ lord-icon {
 }
 
 .address_footer {
-    padding-right: 10rem
+    padding-right: 8rem;
+    width: 20%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -2719,4 +2737,3 @@ lord-icon {
     }
     
    
-
