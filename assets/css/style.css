@@ -2117,9 +2117,9 @@ lord-icon {
     /* color: rgb(120, 131, 137); */
 }
 
-.social{
+/* .social{
     padding-left: 5rem !important;
-}
+} */
 
 #footer-addr a:hover {
     color: rgb(252, 219, 253);
@@ -2637,7 +2637,6 @@ lord-icon {
 
 .address_footer {
     padding-right: 8rem;
-    width: 20%;
 }
 
 @media only screen and (max-width: 768px) {
