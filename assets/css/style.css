@@ -2257,14 +2257,14 @@ lord-icon {
     }
 
     #mlh-trust-badge {
-        top: 14.5vw !important;
+        top: 1vw !important;
     }
 }
 
 @media screen and (max-width: 553px){
     #mlh-trust-badge {
 
-        top: 13.5rem !important;
+        top: 10rem !important;
     }
 
 .banner-parallax{
@@ -2277,15 +2277,15 @@ lord-icon {
         }}
         @media screen and (max-width: 460px){
             #mlh-trust-badge {
-                top: 12.5rem !important;
+                top: 8.5rem !important;
             }}   
             @media screen and (max-width: 400px){
                 #mlh-trust-badge {
-                    top: 10.5rem !important;
+                    top: 8rem !important;
                 }}   
                 @media screen and (max-width: 350px){
                     #mlh-trust-badge {
-                        top: 9rem !important;
+                        top: 7.5rem !important;
                     }}   
  
 
