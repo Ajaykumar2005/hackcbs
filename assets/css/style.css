@@ -2325,16 +2325,19 @@ lord-icon {
 
     
 
-    /* #mlh-trust-badge {
+    #mlh-trust-badge {
         top: 16.5vw !important;
-    } */
+    }
+
 }
 
 @media screen and (max-width: 553px){
     #mlh-trust-badge {
 
         top: 17.6vw!important;
+
         right: 6px !important;
+
     }
 
 .banner-parallax{
