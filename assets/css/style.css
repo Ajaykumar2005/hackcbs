@@ -583,10 +583,6 @@ a {
 }
 
 /** Glimpses **/
-
-.previous_ed{
-    margin-top: 1rem;
-}
 .glimpses_of_events{
     display: flex;
     justify-content: center;
@@ -2117,10 +2113,6 @@ lord-icon {
     /* color: rgb(120, 131, 137); */
 }
 
-/* .social{
-    padding-left: 5rem !important;
-} */
-
 #footer-addr a:hover {
     color: rgb(252, 219, 253);
 }
@@ -2328,16 +2320,12 @@ lord-icon {
     #mlh-trust-badge {
         top: 16.5vw !important;
     }
-
 }
 
 @media screen and (max-width: 553px){
     #mlh-trust-badge {
 
         top: 17.6vw!important;
-
-        right: 6px !important;
-
     }
 
 .banner-parallax{
@@ -2639,7 +2627,7 @@ lord-icon {
 }
 
 .address_footer {
-    padding-right: 8rem;
+    padding-right: 10rem
 }
 
 @media only screen and (max-width: 768px) {
@@ -2739,3 +2727,4 @@ lord-icon {
     }
     
    
+
