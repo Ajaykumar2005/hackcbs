@@ -220,8 +220,7 @@ html {
 
 .banner-button-style:before {
     content: '';
-    /* background: linear-gradient(45deg, #ff5cdc, #ff59db, #ea00ff, #9d06e2, #6f0bda, #8e11e2, #ea00ff, #ff43d6, #ff87e5); */
-    background: linear-gradient(260deg, #90C4F2,#8dc8fb , #667C97, #667C97,#728091,#64768b,#97c1e6 ,#8babc8,#83c2f9);
+     background: linear-gradient(279deg, #7ca5cb,#7397b8 ,#7894af,#7792ab,#647e93 , #68849e,#61798f ,#616f7c,#687887,#556c7f , #667C97, #667C97,#728091,#64768b);
     position: absolute;
     top: -2px;
     left: -2px;
@@ -434,8 +433,14 @@ a {
     text-decoration: none !important;
 }
 
+.clr-blue {
+    color:#90C4F2;
+}
+.clr-black{
+    color:black;
+}
 .clr-white {
-    color: white;
+    color:#fff;
 }
 
 .clr-dark {
@@ -626,7 +631,7 @@ a {
 
 .col-lg-2 {
     padding-left: 0.30rem;
-    padding-right: 0.30rem;
+  
     margin-top: 0.10rem;
     margin-bottom: 0.10rem;
 }
@@ -755,7 +760,7 @@ a {
 @media screen and (min-width: 768px) and (max-width: 990px) {
     .glimpses_container{
         grid-template-columns: repeat(5,1fr);
-        padding-left: 10vw;
+        
     }
 
     .glimpse_flip-card{
@@ -774,7 +779,7 @@ a {
     padding-right: 0;
 } */
 .section_title h5{
-    color: #667C97;
+    color: white;
 }
 .lgx-photo-gallery-black .lgx-inner {
     background: rgba(78, 98, 129, 0.93);
@@ -1114,7 +1119,7 @@ div.lgx-single-registration.recommended{
     content: '+';
     position: absolute;
     float: right;
-    right: 1rem;
+    right: 0.5rem;
     font-size: 2rem;
     color: #7288a2;
     padding: 1px;
@@ -1576,6 +1581,7 @@ div.lgx-single-registration.recommended{
     }
 }
 
+
 @media screen and (min-width: 768px){
     .navbar-nav {
     float: right;
@@ -1781,8 +1787,9 @@ h4.hack-prize-heading{
     transition: transform 0.25s ease-out;
   }
   
+  
   .cta:hover .hover-underline-animation:after {
-    transform: scaleX(1);
+    transform: scaleX(0.91);
     transform-origin: bottom left;
   }
 
@@ -1792,11 +1799,14 @@ h4.hack-prize-heading{
 
 #workshops {
     margin-top: 0vh;
+    padding-bottom: 80px !important;
+    padding-top: 13rem;
     background: #040709;
     /* background-color: #5bc2e0; */
 }
 
 .flip-card {
+    border-radius: 0 0 2rem 2rem ;
     width: 100%;
     height: 24rem;
     perspective: 1000px;
@@ -1818,6 +1828,7 @@ h4.hack-prize-heading{
 .flip-card-front,
 .flip-card-back {
     position: absolute;
+    border-radius: 0 0 1rem 1rem;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
@@ -1869,6 +1880,7 @@ h4.hack-prize-heading{
 
 .flip-cover {
     padding: 2em;
+    border-radius: 1rem 1rem 0 0;
     /* height: 170px; */
     background-color: white;
     justify-content: center;
@@ -2333,7 +2345,7 @@ lord-icon {
 @media screen and (max-width: 553px){
     #mlh-trust-badge {
 
-        top: 17.6vw!important;
+        top: 18vw!important;
         right: 6px !important;
     }
 
@@ -2375,7 +2387,7 @@ lord-icon {
 
     .home_date-container p {
         font-size: 2.7rem;
-        margin-top: 15rem;
+        margin-top: 10rem;
     }
 
     .home_hackCBS .text {
@@ -2652,69 +2664,9 @@ lord-icon {
     color: inherit;
 }
 
-/* button {
-    appearance: none;
-    background: transparent;
-    border: 0;
-    color: #fff;
-    cursor: pointer;
-    font: inherit;
-    font-weight: 500;
-    line-height: 1;
-    padding: 1em 1.5em;
-    position: relative;
-    transition: filter var(--motion-duration);
-  }
-  
-  button:hover {
-    filter: brightness(1.1);
-  }
-  
-  button:active {
-    filter: brightness(0.9);
-  }
-  
-  button > span {
-    display: block;
-    position: relative;
-    transition: transform var(--motion-duration) var(--motion-ease);
-    z-index: 1;
-  }
-  
-  button:hover > span {
-    transform: scale(1.05);
-  }
-  
-  button:active > span {
-    transform: scale(0.95);
-  }
-  
-  button > svg {
-    fill:#007bff;
-    position: absolute;
-    top: -5%;
-    left: -5%;
-    width: 110%;
-    height: 110%;
-  }
-  
-  button > svg > path {
-    transition: var(--motion-duration) var(--motion-ease);
-  }
-
-  button:hover > svg > path {
-    d: path("M0,0 C0,-5 100,-5 100,0 C105,0 105,100 100,100 C100,105 0,105 0,100 C-5,100 -5,0 0,0");
-  }
-  
-  button:active > svg > path {
-    d: path("M0,0 C30,10 70,10 100,0 C95,30 95,70 100,100 C70,90 30,90 0,100 C5,70 5,30 0,0");
-  } */
-
-  /* Landing page illumination */
-
   
   .hackcbs_landing{
-    width: 75%;
+    width: 72%;
   }
   @media screen and (max-width: 684px){
     .hackcbs_landing {
@@ -2723,8 +2675,9 @@ lord-icon {
    
 
     .banner-parallax {
-        background-image: url("../img/bg/bg3.png");
+        background-image: url("../img/bg/bg3.jpg");
         background-size: cover;
+        background-color: black;
         background-repeat: no-repeat;
         background-position:center;
         background-attachment: fixed;
