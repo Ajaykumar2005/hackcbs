@@ -921,7 +921,7 @@ a {
     background-color: #fff;
     margin: 15px 10px;
     padding: 20px 5px;
-    height:17vw;
+  
     align-content: center;
     text-align: center;
     justify-content: center;
@@ -1022,10 +1022,11 @@ a {
 
 .contact-content a{
     color: #DFEAF0;
+
 }
 
 .contact-content a:hover{
-    color: blue;
+    color: inherit;
 }
 
 .contact-card::before {
@@ -1322,41 +1323,7 @@ div.lgx-single-registration.recommended{
         height: 520px;
     }
 }
-@media screen and (min-width: 1000px) {
-    .general-sponsor .sponsors-logo {
-        background-color: #fff;
-        margin: 15px 10px;
-        padding: 20px 5px;
-        height: 9vw;
-        
-        align-content: center;
-        text-align: center;
-        justify-content: center;
-        vertical-align: middle;
-        overflow: hidden;
-        border-radius: 5px;
-        box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.05), 0 1px 5px 0 rgba(0, 0, 0, 0.05);
-        cursor: grab;
-    }
-}
 
-@media screen and (min-width: 1100px) {
-    .general-sponsor .sponsors-logo {
-        background-color: #fff;
-        margin: 15px 10px;
-        padding: 20px 5px;
-        height: 8vw;
-        padding-top: 2vw;
-        align-content: center;
-        text-align: center;
-        justify-content: center;
-        vertical-align: middle;
-        overflow: hidden;
-        border-radius: 5px;
-        box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.05), 0 1px 5px 0 rgba(0, 0, 0, 0.05);
-        cursor: grab;
-    }
-}
 
 @media screen and (max-width: 1120px) {
     .swiper {
